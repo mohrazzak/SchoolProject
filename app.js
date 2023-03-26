@@ -48,5 +48,5 @@ app.use((req, res, next) => {
 });
 
 mongoose
-  .connect('mongodb+srv://test:test@cluster0.ir5x9.mongodb.net/school')
+  .connect(process.env.mongo_url)
   .then(app.listen(process.env.PORT || 3000));
