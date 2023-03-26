@@ -209,7 +209,6 @@ router.put(
     check(`place`, "Please provide valid place.").notEmpty().isAlpha(),
     check(`email`, "Please provide valid email.")
       .notEmpty()
-      .isAlpha()
       .isEmail()
       .normalizeEmail(),
     check(`phone`, "Please provide valid phone.").notEmpty().isNumeric(),
@@ -271,7 +270,6 @@ router.put(
     check(`place`, "Please provide valid place.").notEmpty().isAlpha(),
     check(`email`, "Please provide valid email.")
       .notEmpty()
-      .isAlpha()
       .isEmail()
       .normalizeEmail(),
     check(`phone`, "Please provide valid phone.").notEmpty().isNumeric(),
@@ -299,7 +297,6 @@ router.post(
     check(`place`, "Please provide valid place.").notEmpty().isAlpha(),
     check(`email`, "Please provide valid email.")
       .notEmpty()
-      .isAlpha()
       .isEmail()
       .normalizeEmail(),
     check(`phone`, "Please provide valid phone.").notEmpty().isNumeric(),
@@ -326,7 +323,6 @@ router.put(
     check(`place`, "Please provide valid place.").notEmpty().isAlpha(),
     check(`email`, "Please provide valid email.")
       .notEmpty()
-      .isAlpha()
       .isEmail()
       .normalizeEmail(),
     check(`phone`, "Please provide valid phone.").notEmpty().isNumeric(),
