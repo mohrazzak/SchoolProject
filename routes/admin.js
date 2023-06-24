@@ -285,8 +285,8 @@ router.put(
 
 router.post(
   `/add/admin`,
-  isAuth,
-  isAdmin,
+  // isAuth,
+  // isAdmin,
   [
     check(`password`, `Please type a valid password.`).notEmpty().isLength({
       min: 5,
