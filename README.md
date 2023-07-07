@@ -2,6 +2,42 @@
 
 This is a web application for a digital school project, which allows teachers to create programs for their classes, students to view those programs, and administrators to manage the system.
 
+## Demo User Accounts
+
+The following user IDs are provided as demo accounts for testing and demonstration purposes:
+
+### Admins
+- 4
+
+### Teachers
+- 101
+- 102
+
+### Students
+- 1000
+- 1001
+- 1002
+- 1003
+- 1004
+- 1005
+- 1006
+- 1007
+
+**Note:** All demo users have the password "Test1234".
+
+## Class and Exam IDs
+
+Use the following IDs to control and edit certain features:
+
+### Classes
+- 10002
+- 10003
+
+### Exams
+- 1
+- 2
+- 3
+
 ### Technologies Used
 
 The following technologies are used to develop the backend server:
